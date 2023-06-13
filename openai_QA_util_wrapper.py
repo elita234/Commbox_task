@@ -4,7 +4,7 @@ from langchain.document_loaders import PyPDFLoader
 from langchain.llms import OpenAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = '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'
 llm = OpenAI()
 
 CHAIN_TYPE = 'map_reduce'  # stuff, map_reduce, refine, map_rerank
