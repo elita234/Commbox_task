@@ -4,6 +4,8 @@ from langchain.document_loaders import PyPDFLoader
 from langchain.llms import OpenAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
+
+#  https://platform.openai.com/account/api-keys
 os.environ["OPENAI_API_KEY"] = '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'
 llm = OpenAI()
 
