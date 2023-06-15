@@ -8,7 +8,7 @@ from langchain.chains import RetrievalQA
 from langchain.llms import OpenAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-
+a
 
 import os
 os.environ["OPENAI_API_KEY"] = "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"
