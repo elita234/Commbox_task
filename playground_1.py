@@ -5,7 +5,7 @@ from PyPDF2 import PdfReader
 from langchain import OpenAI
 
 # Configure your OpenAI API key
-openai.api_key = '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'
+openai.api_key = ''
 
 
 def load_file_content():
