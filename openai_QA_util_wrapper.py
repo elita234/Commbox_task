@@ -15,7 +15,7 @@ from langchain.embeddings import OpenAIEmbeddings
 import os
 
 #  https://platform.openai.com/account/api-keys
-os.environ["OPENAI_API_KEY"] = 'key'
+os.environ["OPENAI_API_KEY"] = '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'
 llm = OpenAI()
 
 #CHAIN_TYPE = 'map_reduce'  # stuff, map_reduce, refine, map_rerank
